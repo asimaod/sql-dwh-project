@@ -19,7 +19,7 @@ Usage Notes:
 
 -- Table: bronze.crm_cust_info
 -- Check for Nulls or Duplicates in Primary Key
--- Expectation: No Result
+-- Expectation: No Results
 select
 	cst_id,
 	count(*)
@@ -40,7 +40,7 @@ from bronze.crm_cust_info;
 
 -- Table: silver.crm_cust_info
 -- Check for Nulls or Duplicates in Primary Key
--- Expectation: No Result
+-- Expectation: No Results
 select
 	cst_id,
 	count(*)
@@ -61,7 +61,7 @@ from silver.crm_cust_info;
 
 -- Table: bronze.crm_prd_info
 -- Check for Nulls or Duplicates in Primary Key
--- Expectation: No Result
+-- Expectation: No Results
 select
 	prd_id,
 	count(*)
@@ -93,7 +93,7 @@ where prd_end_dt<prd_start_dt;
 
 -- Table: silver.crm_prd_info
 -- Check for Nulls or Duplicates in Primary Key
--- Expectation: No Result
+-- Expectation: No Results
 select
 	prd_id,
 	count(*)
