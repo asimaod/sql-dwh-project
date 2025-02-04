@@ -19,7 +19,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 
 - **Naming Conventions**: Use snake_case, with lowercase letters and underscores (`_`) to separate words.
 - **Language**: Use English for all names.
-- **Avoid Reserved Words**: Do not use SQL reserved words as object names.
+- **Avoid Reserved Words**: Do not use PostgreSQL (SQL) reserved words as object names.
 
 ## **Table Naming Conventions**
 
